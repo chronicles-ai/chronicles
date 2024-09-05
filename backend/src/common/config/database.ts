@@ -1,9 +1,9 @@
 import { Sequelize } from "sequelize";
 
 export const sequalize = new Sequelize (
-    'chronicles', //env
-    'avnadmin', //env
-    'AVNS_DnhVSwZtBL05nYGliqY', //env
+    'DATABASE_NAME', //env
+    'USERNAME', //env
+    'PASSWORD', //env
     {
         host: 'HOSTNAME', //env
         dialect: 'mysql', //env
