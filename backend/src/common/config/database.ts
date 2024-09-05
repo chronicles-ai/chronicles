@@ -5,9 +5,9 @@ export const sequalize = new Sequelize (
     'avnadmin', //env
     'AVNS_DnhVSwZtBL05nYGliqY', //env
     {
-        host: 'chronicles-student-dbf6.g.aivencloud.com', //env
+        host: 'HOSTNAME', //env
         dialect: 'mysql', //env
-        port: 22155, //env,
+        port: 'PORT', //env,
         dialectOptions: {
             ssl: {
                 require: true,
