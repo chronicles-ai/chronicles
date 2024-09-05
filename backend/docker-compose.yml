@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    restart: unless-stopped
+    env_file: ./.env
+    environment:
+      - DATABASE_PASSWORD=$DATABASE_PASSWORD
+      - DATABASE_NAME=$MYSQL_NAME
+    ports:
+      - $DATABASE_PORT:$DATABASE_PORT
+    volumes:
+      - db:/var/lib/mysql
+    networks:
+      - backend
+
+  server:
+    depends_on:
+      - mysql
+    build: .
+    restart: unless-stopped
+    env_file: ./.env
+    ports:
+      - $SERVER_PORT:$SERVER_PORT
+    environment:
+      - DATABASE_HOST=mysql
+    networks:
+      - backend
+    stdin_open: true
+    tty: true
+
+volumes:
+  db:
+networks:
+  backend:
