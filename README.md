@@ -1,4 +1,4 @@
-# Chronicles
+![image](https://github.com/user-attachments/assets/be7a47cc-d2e5-4005-9443-fcd5d7c16efa)![image](https://github.com/user-attachments/assets/698a748d-7fb7-4451-9518-c7337665bf79)# Chronicles
 
 <img src="./logo.png">
 
