@@ -129,7 +129,8 @@ Chronicles is a web application that can be opened in a browser.
 
 1. Image Generation using LLAMA
 
-[![Image Generation using LLAMA](https://img.youtube.com/vi/lW8sy1saTlY/0.jpg)](https://www.youtube.com/watch?v=lW8sy1saTlY)
+[![Image Generation using LLAMA](https://i.ibb.co.com/Qv3Nw7g/Images-Generation-Thumbnail.png)](https://youtu.be/lW8sy1saTlY)
+
 
 ## Contribution
 
