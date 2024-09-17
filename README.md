@@ -93,9 +93,7 @@ For image generation, we leverage Llama to craft prompts that are used to genera
 
 To start the LLM service:
 
-> Note: the jupyter notebook is intended to be run in Google Colab or a local environment with the necessary dependencies installed. To run the notebook, ensure you fill in the necessary environment variables and install the required packages.
-
-```bash
+> Note: the jupyter notebook is intended to be run in Google Colab or a local environment with the necessary dependencies installed.
 
 ### Running the Server
 
