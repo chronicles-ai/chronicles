@@ -1,4 +1,4 @@
-# Chronicles
+![image](https://github.com/user-attachments/assets/be7a47cc-d2e5-4005-9443-fcd5d7c16efa)![image](https://github.com/user-attachments/assets/698a748d-7fb7-4451-9518-c7337665bf79)# Chronicles
 
 <img src="./logo.png">
 
@@ -124,6 +124,12 @@ Chronicles is a web application that can be opened in a browser.
 
 2. Create Story Page (Image Generation and Safety Image)
 ![createstory](./createstory.png)
+
+## Video Demo
+
+1. Image Generation using LLAMA
+
+[![Image Generation using LLAMA](https://i.ibb.co.com/Qv3Nw7g/Images-Generation-Thumbnail.png)](https://youtu.be/lW8sy1saTlY)
 
 
 ## Contribution
